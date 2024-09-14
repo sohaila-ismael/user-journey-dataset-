@@ -51,6 +51,6 @@ To connect to the MySQL database and run the SQL queries, use the following code
 ```python
 %load_ext sql
 %sql mysql+pymysql://root:100200300@localhost:3306/user_journey_data
-
+```
 ## Conclusion
 This project effectively analyzes user journey data before their first subscription purchase. The insights generated from the sequence of web interactions will help marketing teams improve user experience and enhance conversion rates by understanding
